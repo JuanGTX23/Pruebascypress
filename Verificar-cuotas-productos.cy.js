@@ -18,7 +18,7 @@ cy.get('.products li.product-item')  //  clase de los elementos de la lista de p
 
   })
 
-  it('Ingresar a la pagina, buscar el equipo Samsung A14 4G y verificar cuotas de banco Columbia-Mastercard ', () => {
+  it('Ingresar a la pagina, buscar el equipo Samsung A14 4G y verificar cuotas de banco Servicios Financieros-Mastercard ', () => {
   cy.viewport(1191, 898);
   cy.visit("https://tiendaonline.movistar.com.ar");
    cy.get('.products li.product-item')  // Reemplaza con la clase real de los elementos de la lista de productos
